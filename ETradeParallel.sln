@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32319.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{EFA56A8E-1270-4E72-BCC5-1C35CF1A3F83}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ETradeParallel.Domain", "Core\ETradeParallel.Domain\ETradeParallel.Domain.csproj", "{D1D8E3FD-BB20-496C-A5D1-5FF478629875}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{9D8B04AD-E0B1-4A7C-BA27-A788A6B0F217}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{B85D53C0-8237-45FF-B6A2-4DAA5EBA1322}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ETradeParallel.Application", "Core\ETradeParallel.Application\ETradeParallel.Application.csproj", "{A507FE1A-C5F9-40A0-8538-970BD20550E9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ETradeParallel.Infrastructure", "Infrastructure\ETradeParallel.Infrastructure\ETradeParallel.Infrastructure.csproj", "{FCAF6981-FD99-4D73-A3BA-32E4C28327BB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ETradeParallel.API", "Presentation\ETradeParallel.API\ETradeParallel.API.csproj", "{F35220D0-9C84-4A59-806E-15A28C83DF7A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ETradeParallel.Persistence", "Infrastructure\ETradeParallel.Persistence\ETradeParallel.Persistence.csproj", "{9CE0245E-5C22-4E25-9073-00B00FD2848A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D1D8E3FD-BB20-496C-A5D1-5FF478629875}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1D8E3FD-BB20-496C-A5D1-5FF478629875}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1D8E3FD-BB20-496C-A5D1-5FF478629875}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1D8E3FD-BB20-496C-A5D1-5FF478629875}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A507FE1A-C5F9-40A0-8538-970BD20550E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A507FE1A-C5F9-40A0-8538-970BD20550E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A507FE1A-C5F9-40A0-8538-970BD20550E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A507FE1A-C5F9-40A0-8538-970BD20550E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCAF6981-FD99-4D73-A3BA-32E4C28327BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCAF6981-FD99-4D73-A3BA-32E4C28327BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCAF6981-FD99-4D73-A3BA-32E4C28327BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCAF6981-FD99-4D73-A3BA-32E4C28327BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F35220D0-9C84-4A59-806E-15A28C83DF7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F35220D0-9C84-4A59-806E-15A28C83DF7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F35220D0-9C84-4A59-806E-15A28C83DF7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F35220D0-9C84-4A59-806E-15A28C83DF7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CE0245E-5C22-4E25-9073-00B00FD2848A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CE0245E-5C22-4E25-9073-00B00FD2848A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CE0245E-5C22-4E25-9073-00B00FD2848A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CE0245E-5C22-4E25-9073-00B00FD2848A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D1D8E3FD-BB20-496C-A5D1-5FF478629875} = {EFA56A8E-1270-4E72-BCC5-1C35CF1A3F83}
+		{A507FE1A-C5F9-40A0-8538-970BD20550E9} = {EFA56A8E-1270-4E72-BCC5-1C35CF1A3F83}
+		{FCAF6981-FD99-4D73-A3BA-32E4C28327BB} = {9D8B04AD-E0B1-4A7C-BA27-A788A6B0F217}
+		{F35220D0-9C84-4A59-806E-15A28C83DF7A} = {B85D53C0-8237-45FF-B6A2-4DAA5EBA1322}
+		{9CE0245E-5C22-4E25-9073-00B00FD2848A} = {9D8B04AD-E0B1-4A7C-BA27-A788A6B0F217}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FC5D65D7-31B4-4F58-9F3B-C1A54E536A73}
+	EndGlobalSection
+EndGlobal

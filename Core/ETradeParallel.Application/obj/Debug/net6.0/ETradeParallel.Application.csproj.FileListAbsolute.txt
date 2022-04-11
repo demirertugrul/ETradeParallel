@@ -1,0 +1,17 @@
+D:\Lesson\Tech_Projects\Dev_Project\c#\ETradeMiniAppParallel\ETradeParallel\Core\ETradeParallel.Application\bin\Debug\net6.0\ETradeParallel.Application.deps.json
+D:\Lesson\Tech_Projects\Dev_Project\c#\ETradeMiniAppParallel\ETradeParallel\Core\ETradeParallel.Application\bin\Debug\net6.0\ETradeParallel.Application.dll
+D:\Lesson\Tech_Projects\Dev_Project\c#\ETradeMiniAppParallel\ETradeParallel\Core\ETradeParallel.Application\bin\Debug\net6.0\ETradeParallel.Application.pdb
+D:\Lesson\Tech_Projects\Dev_Project\c#\ETradeMiniAppParallel\ETradeParallel\Core\ETradeParallel.Application\bin\Debug\net6.0\ETradeParallel.Domain.dll
+D:\Lesson\Tech_Projects\Dev_Project\c#\ETradeMiniAppParallel\ETradeParallel\Core\ETradeParallel.Application\bin\Debug\net6.0\ETradeParallel.Domain.pdb
+D:\Lesson\Tech_Projects\Dev_Project\c#\ETradeMiniAppParallel\ETradeParallel\Core\ETradeParallel.Application\obj\Debug\net6.0\ETradeParallel.Application.csproj.AssemblyReference.cache
+D:\Lesson\Tech_Projects\Dev_Project\c#\ETradeMiniAppParallel\ETradeParallel\Core\ETradeParallel.Application\obj\Debug\net6.0\ETradeParallel.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Lesson\Tech_Projects\Dev_Project\c#\ETradeMiniAppParallel\ETradeParallel\Core\ETradeParallel.Application\obj\Debug\net6.0\ETradeParallel.Application.AssemblyInfoInputs.cache
+D:\Lesson\Tech_Projects\Dev_Project\c#\ETradeMiniAppParallel\ETradeParallel\Core\ETradeParallel.Application\obj\Debug\net6.0\ETradeParallel.Application.AssemblyInfo.cs
+D:\Lesson\Tech_Projects\Dev_Project\c#\ETradeMiniAppParallel\ETradeParallel\Core\ETradeParallel.Application\obj\Debug\net6.0\ETradeParallel.Application.csproj.CoreCompileInputs.cache
+D:\Lesson\Tech_Projects\Dev_Project\c#\ETradeMiniAppParallel\ETradeParallel\Core\ETradeParallel.Application\obj\Debug\net6.0\ETradeParallel.Application.csproj.CopyComplete
+D:\Lesson\Tech_Projects\Dev_Project\c#\ETradeMiniAppParallel\ETradeParallel\Core\ETradeParallel.Application\obj\Debug\net6.0\ETradeParallel.Application.dll
+D:\Lesson\Tech_Projects\Dev_Project\c#\ETradeMiniAppParallel\ETradeParallel\Core\ETradeParallel.Application\obj\Debug\net6.0\refint\ETradeParallel.Application.dll
+D:\Lesson\Tech_Projects\Dev_Project\c#\ETradeMiniAppParallel\ETradeParallel\Core\ETradeParallel.Application\obj\Debug\net6.0\ETradeParallel.Application.pdb
+D:\Lesson\Tech_Projects\Dev_Project\c#\ETradeMiniAppParallel\ETradeParallel\Core\ETradeParallel.Application\obj\Debug\net6.0\ref\ETradeParallel.Application.dll
+D:\Lesson\Tech_Projects\Dev_Project\c#\ETradeMiniAppParallel\ETradeParallel\Core\ETradeParallel.Application\bin\Debug\net6.0\ETradeParallel.Application.runtimeconfig.json
+D:\Lesson\Tech_Projects\Dev_Project\c#\ETradeMiniAppParallel\ETradeParallel\Core\ETradeParallel.Application\obj\Debug\net6.0\ETradeParallel.Application.genruntimeconfig.cache
