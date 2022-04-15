@@ -19,11 +19,10 @@ namespace ETradeParallel.API.Controllers
         }
 
         [HttpGet]
-        public async Task GetProduct()
+        public IActionResult GetProduct()
         {
-            var p = await _productReadRepository.GetByIdAsync("5b93d84a-a20b-4bc5-adf2-60c3ea57e4c5",false);
-            p.Stock = 50;
-            await _productWriteRepository.SaveAsync();
+            var products = _productReadRepository.GetAll();
+            return Ok(products);
         }
     }
 }
