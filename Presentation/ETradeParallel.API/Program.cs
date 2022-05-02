@@ -1,8 +1,9 @@
+using ETradeParallel.Application.Validators.Products;
+using ETradeParallel.Infrastructure.Filters;
 using ETradeParallel.Persistence;
+using FluentValidation.AspNetCore;
 
 var builder = WebApplication.CreateBuilder(args);
-
-
 
 builder.Services.AddPersistenceServices();
 
@@ -11,7 +12,10 @@ builder.Services.AddCors(options =>
         policy.WithOrigins("http://localhost:4200", "https://localhost:4200").AllowAnyHeader().AllowAnyMethod()
         ));
 
-builder.Services.AddControllers();
+builder.Services.AddControllers(options => options.Filters.Add<ValidationFilter>())
+    .AddFluentValidation(configuration => configuration.RegisterValidatorsFromAssemblyContaining<CreatedProductValidator>())
+    .ConfigureApiBehaviorOptions(options => options.SuppressModelStateInvalidFilter = true);
+
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
@@ -26,6 +30,8 @@ if (app.Environment.IsDevelopment())
 app.UseCors();
 
 app.UseHttpsRedirection();
+
+//app.UseRouting(); bu default olarak burada geliyor
 
 app.UseAuthorization();
 

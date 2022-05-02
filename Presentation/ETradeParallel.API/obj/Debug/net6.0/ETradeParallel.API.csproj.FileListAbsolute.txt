@@ -77,3 +77,11 @@ D:\Lesson\Tech_Projects\Dev_Project\c#\ETradeMiniAppParallel\ETradeParallel\Pres
 D:\Lesson\Tech_Projects\Dev_Project\c#\ETradeMiniAppParallel\ETradeParallel\Presentation\ETradeParallel.API\obj\Debug\net6.0\ETradeParallel.API.MvcApplicationPartsAssemblyInfo.cs
 D:\Lesson\Tech_Projects\Dev_Project\c#\ETradeMiniAppParallel\ETradeParallel\Presentation\ETradeParallel.API\bin\Debug\net6.0\Humanizer.dll
 D:\Lesson\Tech_Projects\Dev_Project\c#\ETradeMiniAppParallel\ETradeParallel\Presentation\ETradeParallel.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Lesson\Tech_Projects\Dev_Project\c#\ETradeMiniAppParallel\ETradeParallel\Presentation\ETradeParallel.API\bin\Debug\net6.0\FluentValidation.dll
+D:\Lesson\Tech_Projects\Dev_Project\c#\ETradeMiniAppParallel\ETradeParallel\Presentation\ETradeParallel.API\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
+D:\Lesson\Tech_Projects\Dev_Project\c#\ETradeMiniAppParallel\ETradeParallel\Presentation\ETradeParallel.API\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
+D:\Lesson\Tech_Projects\Dev_Project\c#\ETradeMiniAppParallel\ETradeParallel\Presentation\ETradeParallel.API\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
+D:\Lesson\Tech_Projects\Dev_Project\c#\ETradeMiniAppParallel\ETradeParallel\Presentation\ETradeParallel.API\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+D:\Lesson\Tech_Projects\Dev_Project\c#\ETradeMiniAppParallel\ETradeParallel\Presentation\ETradeParallel.API\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\Lesson\Tech_Projects\Dev_Project\c#\ETradeMiniAppParallel\ETradeParallel\Presentation\ETradeParallel.API\bin\Debug\net6.0\ETradeParallel.Infrastructure.dll
+D:\Lesson\Tech_Projects\Dev_Project\c#\ETradeMiniAppParallel\ETradeParallel\Presentation\ETradeParallel.API\bin\Debug\net6.0\ETradeParallel.Infrastructure.pdb

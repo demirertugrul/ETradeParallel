@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "j9AVgQ3CfmvBwY3KzUaEoStx6d7Y8kpGDUN/wPnCwggkF6uKlKd1SC+2d5vZYbkQMhY62pAkU2xvmYIBPsrnIA==",
+  "dgSpecHash": "nrHuNRh7oVniemaoD7xYUdu3IhVpeQZWtmhkh8ijHD7GouOHp6GfPiM0togC2dZWkDgvm/b8+g3Mkcr7GYGslw==",
   "success": true,
   "projectFilePath": "D:\\Lesson\\Tech_Projects\\Dev_Project\\c#\\ETradeMiniAppParallel\\ETradeParallel\\Infrastructure\\ETradeParallel.Persistence\\ETradeParallel.Persistence.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pries\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
+    "C:\\Users\\pries\\.nuget\\packages\\fluentvalidation\\10.4.0\\fluentvalidation.10.4.0.nupkg.sha512",
+    "C:\\Users\\pries\\.nuget\\packages\\fluentvalidation.aspnetcore\\10.4.0\\fluentvalidation.aspnetcore.10.4.0.nupkg.sha512",
+    "C:\\Users\\pries\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\10.4.0\\fluentvalidation.dependencyinjectionextensions.10.4.0.nupkg.sha512",
     "C:\\Users\\pries\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\pries\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\pries\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",

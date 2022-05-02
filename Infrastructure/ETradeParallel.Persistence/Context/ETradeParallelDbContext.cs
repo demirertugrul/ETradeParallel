@@ -1,11 +1,6 @@
 ﻿using ETradeParallel.Domain.Entities;
 using ETradeParallel.Domain.Entities.Base;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ETradeParallel.Persistence.Context
 {
@@ -27,9 +22,11 @@ namespace ETradeParallel.Persistence.Context
                 _ = data.State switch
                 {
                     EntityState.Added => data.Entity.CreatedDate = DateTime.UtcNow,
-                    EntityState.Modified=> data.Entity.UpdateDate= DateTime.UtcNow,
+                    EntityState.Modified => data.Entity.UpdateDate = DateTime.UtcNow,
+                    _ => DateTime.UtcNow, 
                 };
             }
+
             return await base.SaveChangesAsync(cancellationToken);
         }
 

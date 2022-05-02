@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "9D1YzTe+ngJbviUSwij8kGcehb6YeouhMuPjIOq6pOBlNNr9sMcNzTQifErHR0j+CYFgXejCniCRfr4WK6GdkQ==",
+  "dgSpecHash": "Lm4HH9nibb0Eb2lPEvhRUCgQ4lugZsMX43zvGytdxooQTpRgYqUo31hV5iI+vs3iL9dOYQw3y0clwCD+OOSBxg==",
   "success": true,
   "projectFilePath": "D:\\Lesson\\Tech_Projects\\Dev_Project\\c#\\ETradeMiniAppParallel\\ETradeParallel\\Core\\ETradeParallel.Application\\ETradeParallel.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pries\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
+    "C:\\Users\\pries\\.nuget\\packages\\fluentvalidation\\10.4.0\\fluentvalidation.10.4.0.nupkg.sha512",
+    "C:\\Users\\pries\\.nuget\\packages\\fluentvalidation.aspnetcore\\10.4.0\\fluentvalidation.aspnetcore.10.4.0.nupkg.sha512",
+    "C:\\Users\\pries\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\10.4.0\\fluentvalidation.dependencyinjectionextensions.10.4.0.nupkg.sha512",
     "C:\\Users\\pries\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\pries\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.3\\microsoft.entityframeworkcore.6.0.3.nupkg.sha512",
     "C:\\Users\\pries\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.3\\microsoft.entityframeworkcore.abstractions.6.0.3.nupkg.sha512",

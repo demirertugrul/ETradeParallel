@@ -3,11 +3,6 @@ using ETradeParallel.Domain.Entities.Base;
 using ETradeParallel.Persistence.Context;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ETradeParallel.Persistence.Repositories
 {
@@ -52,15 +47,13 @@ namespace ETradeParallel.Persistence.Repositories
             return true;
         }
 
-        public async Task<int> SaveAsync()
-        {
-           return await _context.SaveChangesAsync();
-        }
-
         public bool Update(T model)
         {
             EntityEntry entityEntry = Table.Update(model);
             return entityEntry.State == EntityState.Modified;
         }
+        public async Task<int> SaveAsync()
+         => await _context.SaveChangesAsync();
+
     }
 }
