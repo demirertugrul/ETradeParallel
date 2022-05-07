@@ -2,12 +2,7 @@
 using ETradeParallel.Domain.Entities.Base;
 using ETradeParallel.Persistence.Context;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Linq.Expressions;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ETradeParallel.Persistence.Repositories
 {

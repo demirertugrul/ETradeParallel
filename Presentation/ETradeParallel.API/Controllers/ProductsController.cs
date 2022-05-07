@@ -1,4 +1,5 @@
 ﻿using ETradeParallel.Application.Repositories;
+using ETradeParallel.Application.RequestParameters;
 using ETradeParallel.Application.ViewModel.Products;
 using ETradeParallel.Domain.Entities;
 using Microsoft.AspNetCore.Mvc;
@@ -20,10 +21,23 @@ namespace ETradeParallel.API.Controllers
         }
 
         [HttpGet]
-        public IActionResult Get()
+        public IActionResult Get([FromQuery] Paginator paginator)
         {
-            var products = _productReadRepository.GetAll(false);
-            return Ok(products);
+            var counts = _productReadRepository.GetAll(false).Count();
+            var products = _productReadRepository.GetAll(false).Skip(paginator.Page * paginator.Size).Take(paginator.Size).Select(p => new
+            {
+                p.Id,
+                p.Name,
+                p.Price,
+                p.Stock,
+                p.CreatedDate,
+                p.UpdatedDate
+            });
+            return Ok(new
+            {
+                products,
+                counts,
+            });
         }
         [HttpPut]
         public async Task<IActionResult> Put(VM_Updated_Product model)
@@ -39,15 +53,11 @@ namespace ETradeParallel.API.Controllers
         [HttpPost]
         public async Task<IActionResult> Post(VM_Created_Product model)
         {
-            if (ModelState.IsValid)
-            {
-
-            }
             await _productWriteRepository.AddAsync(new()
             {
-                Name=   model.Name,
-                Stock= model.Stock,
-                Price= model.Price,
+                Name = model.Name,
+                Stock = model.Stock,
+                Price = model.Price,
             });
             await _productWriteRepository.SaveAsync();
             return StatusCode(StatusCodes.Status201Created);
