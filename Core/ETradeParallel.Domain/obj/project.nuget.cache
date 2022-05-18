@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "O6E7DzoAfvX2yZ+2tTtsFI1j6bBsc1gXUoEqQfyKYm2ofZlSuqPU2AFPuJMyn8kM9edWMioVFor/N3hoFVaS+g==",
+  "dgSpecHash": "dzulCI1Qt8Bsu0Mxhrjd5fr4IyaKPY36yzcEiZhP/71gySyuye4KmAyMY3Et1HhcEAOjBmbSzb+vFSYgg93tMA==",
   "success": true,
-  "projectFilePath": "D:\\Lesson\\Tech_Projects\\Dev_Project\\c#\\ETradeMiniAppParallel\\ETradeParallel\\Core\\ETradeParallel.Domain\\ETradeParallel.Domain.csproj",
+  "projectFilePath": "D:\\Lesson\\Tech_Projects\\Dev_Project\\CSHARP\\ETradeMiniAppParallel\\ETradeParallel\\Core\\ETradeParallel.Domain\\ETradeParallel.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

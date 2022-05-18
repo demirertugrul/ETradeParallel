@@ -1,11 +1,19 @@
 {
   "Version": 1,
-  "Hash": "yVhSC86ogaIJ1F3xPr+Ya7Hw8u0HUCIL869uBFovgyw=",
+  "Hash": "gmoq9ArSa6BdMXGRjhmUAthYBlt9+0oe8HjU+BSQzPk=",
   "Source": "ETradeParallel.API",
   "BasePath": "_content/ETradeParallel.API",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ETradeParallel.API\\wwwroot",
+      "Source": "ETradeParallel.API",
+      "ContentRoot": "D:\\Lesson\\Tech_Projects\\Dev_Project\\CSHARP\\ETradeMiniAppParallel\\ETradeParallel\\Presentation\\ETradeParallel.API\\wwwroot\\",
+      "BasePath": "_content/ETradeParallel.API",
+      "Pattern": "**"
+    }
+  ],
   "Assets": []
 }

@@ -1657,11 +1657,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Lesson\\Tech_Projects\\Dev_Project\\c#\\ETradeMiniAppParallel\\ETradeParallel\\Core\\ETradeParallel.Application\\ETradeParallel.Application.csproj",
+      "projectUniqueName": "D:\\Lesson\\Tech_Projects\\Dev_Project\\CSHARP\\ETradeMiniAppParallel\\ETradeParallel\\Core\\ETradeParallel.Application\\ETradeParallel.Application.csproj",
       "projectName": "ETradeParallel.Application",
-      "projectPath": "D:\\Lesson\\Tech_Projects\\Dev_Project\\c#\\ETradeMiniAppParallel\\ETradeParallel\\Core\\ETradeParallel.Application\\ETradeParallel.Application.csproj",
+      "projectPath": "D:\\Lesson\\Tech_Projects\\Dev_Project\\CSHARP\\ETradeMiniAppParallel\\ETradeParallel\\Core\\ETradeParallel.Application\\ETradeParallel.Application.csproj",
       "packagesPath": "C:\\Users\\pries\\.nuget\\packages\\",
-      "outputPath": "D:\\Lesson\\Tech_Projects\\Dev_Project\\c#\\ETradeMiniAppParallel\\ETradeParallel\\Core\\ETradeParallel.Application\\obj\\",
+      "outputPath": "D:\\Lesson\\Tech_Projects\\Dev_Project\\CSHARP\\ETradeMiniAppParallel\\ETradeParallel\\Core\\ETradeParallel.Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\pries\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1678,8 +1678,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Lesson\\Tech_Projects\\Dev_Project\\c#\\ETradeMiniAppParallel\\ETradeParallel\\Core\\ETradeParallel.Domain\\ETradeParallel.Domain.csproj": {
-              "projectPath": "D:\\Lesson\\Tech_Projects\\Dev_Project\\c#\\ETradeMiniAppParallel\\ETradeParallel\\Core\\ETradeParallel.Domain\\ETradeParallel.Domain.csproj"
+            "D:\\Lesson\\Tech_Projects\\Dev_Project\\CSHARP\\ETradeMiniAppParallel\\ETradeParallel\\Core\\ETradeParallel.Domain\\ETradeParallel.Domain.csproj": {
+              "projectPath": "D:\\Lesson\\Tech_Projects\\Dev_Project\\CSHARP\\ETradeMiniAppParallel\\ETradeParallel\\Core\\ETradeParallel.Domain\\ETradeParallel.Domain.csproj"
             }
           }
         }
@@ -1730,7 +1730,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
       }
     }
   }

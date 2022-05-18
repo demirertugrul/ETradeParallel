@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nrHuNRh7oVniemaoD7xYUdu3IhVpeQZWtmhkh8ijHD7GouOHp6GfPiM0togC2dZWkDgvm/b8+g3Mkcr7GYGslw==",
+  "dgSpecHash": "8eWz/GfeGM2Kz3VQqR00inZVNv5u7DlulteJhWhtcbSM+//l3G9i90zctILHYNbLM+zzLbkFDeggClp7C0H6Cg==",
   "success": true,
-  "projectFilePath": "D:\\Lesson\\Tech_Projects\\Dev_Project\\c#\\ETradeMiniAppParallel\\ETradeParallel\\Infrastructure\\ETradeParallel.Persistence\\ETradeParallel.Persistence.csproj",
+  "projectFilePath": "D:\\Lesson\\Tech_Projects\\Dev_Project\\CSHARP\\ETradeMiniAppParallel\\ETradeParallel\\Infrastructure\\ETradeParallel.Persistence\\ETradeParallel.Persistence.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pries\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\pries\\.nuget\\packages\\fluentvalidation\\10.4.0\\fluentvalidation.10.4.0.nupkg.sha512",

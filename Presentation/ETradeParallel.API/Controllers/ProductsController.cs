@@ -1,5 +1,6 @@
 ﻿using ETradeParallel.Application.Repositories;
 using ETradeParallel.Application.RequestParameters;
+using ETradeParallel.Application.Services;
 using ETradeParallel.Application.ViewModel.Products;
 using ETradeParallel.Domain.Entities;
 using Microsoft.AspNetCore.Mvc;
@@ -13,11 +14,13 @@ namespace ETradeParallel.API.Controllers
     {
         private readonly IProductReadRepository _productReadRepository;
         private readonly IProductWriteRepository _productWriteRepository;
+        private readonly IFileService _fileService;
 
-        public ProductsController(IProductWriteRepository productWriteRepository, IProductReadRepository productReadRepository)
+        public ProductsController(IProductWriteRepository productWriteRepository, IProductReadRepository productReadRepository, IFileService fileService)
         {
             this._productWriteRepository = productWriteRepository;
             this._productReadRepository = productReadRepository;
+            this._fileService = fileService;
         }
 
         [HttpGet]
@@ -68,6 +71,13 @@ namespace ETradeParallel.API.Controllers
         {
             await _productWriteRepository.RemoveByIdAsync(id);
             await _productWriteRepository.SaveAsync();
+            return Ok();
+        }
+
+        [HttpPost("[action]")]
+        public async Task<IActionResult> Upload()
+        {
+            await _fileService.UploadAsync("resource/product-images", Request.Form.Files);
             return Ok();
         }
     }

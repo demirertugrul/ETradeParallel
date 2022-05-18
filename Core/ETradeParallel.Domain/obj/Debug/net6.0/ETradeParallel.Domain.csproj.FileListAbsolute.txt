@@ -10,3 +10,15 @@ D:\Lesson\Tech_Projects\Dev_Project\c#\ETradeMiniAppParallel\ETradeParallel\Core
 D:\Lesson\Tech_Projects\Dev_Project\c#\ETradeMiniAppParallel\ETradeParallel\Core\ETradeParallel.Domain\obj\Debug\net6.0\refint\ETradeParallel.Domain.dll
 D:\Lesson\Tech_Projects\Dev_Project\c#\ETradeMiniAppParallel\ETradeParallel\Core\ETradeParallel.Domain\obj\Debug\net6.0\ETradeParallel.Domain.pdb
 D:\Lesson\Tech_Projects\Dev_Project\c#\ETradeMiniAppParallel\ETradeParallel\Core\ETradeParallel.Domain\obj\Debug\net6.0\ref\ETradeParallel.Domain.dll
+D:\Lesson\Tech_Projects\Dev_Project\CSHARP\ETradeMiniAppParallel\ETradeParallel\Core\ETradeParallel.Domain\bin\Debug\net6.0\ETradeParallel.Domain.deps.json
+D:\Lesson\Tech_Projects\Dev_Project\CSHARP\ETradeMiniAppParallel\ETradeParallel\Core\ETradeParallel.Domain\bin\Debug\net6.0\ETradeParallel.Domain.dll
+D:\Lesson\Tech_Projects\Dev_Project\CSHARP\ETradeMiniAppParallel\ETradeParallel\Core\ETradeParallel.Domain\bin\Debug\net6.0\ETradeParallel.Domain.pdb
+D:\Lesson\Tech_Projects\Dev_Project\CSHARP\ETradeMiniAppParallel\ETradeParallel\Core\ETradeParallel.Domain\obj\Debug\net6.0\ETradeParallel.Domain.csproj.AssemblyReference.cache
+D:\Lesson\Tech_Projects\Dev_Project\CSHARP\ETradeMiniAppParallel\ETradeParallel\Core\ETradeParallel.Domain\obj\Debug\net6.0\ETradeParallel.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Lesson\Tech_Projects\Dev_Project\CSHARP\ETradeMiniAppParallel\ETradeParallel\Core\ETradeParallel.Domain\obj\Debug\net6.0\ETradeParallel.Domain.AssemblyInfoInputs.cache
+D:\Lesson\Tech_Projects\Dev_Project\CSHARP\ETradeMiniAppParallel\ETradeParallel\Core\ETradeParallel.Domain\obj\Debug\net6.0\ETradeParallel.Domain.AssemblyInfo.cs
+D:\Lesson\Tech_Projects\Dev_Project\CSHARP\ETradeMiniAppParallel\ETradeParallel\Core\ETradeParallel.Domain\obj\Debug\net6.0\ETradeParallel.Domain.csproj.CoreCompileInputs.cache
+D:\Lesson\Tech_Projects\Dev_Project\CSHARP\ETradeMiniAppParallel\ETradeParallel\Core\ETradeParallel.Domain\obj\Debug\net6.0\ETradeParallel.Domain.dll
+D:\Lesson\Tech_Projects\Dev_Project\CSHARP\ETradeMiniAppParallel\ETradeParallel\Core\ETradeParallel.Domain\obj\Debug\net6.0\refint\ETradeParallel.Domain.dll
+D:\Lesson\Tech_Projects\Dev_Project\CSHARP\ETradeMiniAppParallel\ETradeParallel\Core\ETradeParallel.Domain\obj\Debug\net6.0\ETradeParallel.Domain.pdb
+D:\Lesson\Tech_Projects\Dev_Project\CSHARP\ETradeMiniAppParallel\ETradeParallel\Core\ETradeParallel.Domain\obj\Debug\net6.0\ref\ETradeParallel.Domain.dll
