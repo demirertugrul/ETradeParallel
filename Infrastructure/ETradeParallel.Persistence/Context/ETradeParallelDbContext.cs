@@ -1,7 +1,7 @@
 ﻿using ETradeParallel.Domain.Entities;
 using ETradeParallel.Domain.Entities.Base;
 using Microsoft.EntityFrameworkCore;
-
+using EntityFile = ETradeParallel.Domain.Entities;
 namespace ETradeParallel.Persistence.Context
 {
     public class ETradeParallelDbContext : DbContext
@@ -13,6 +13,11 @@ namespace ETradeParallel.Persistence.Context
         public DbSet<Product> Products { get; set; }
         public DbSet<Customer> Customers { get; set; }
         public DbSet<Order> Orders { get; set; }
+
+        //TPH
+        public DbSet<EntityFile.File> Files { get; set; }
+        public DbSet<InvoiceFile> InvoiceFiles { get; set; }
+        public DbSet<ProductImageFile> ProductImageFiles { get; set; }
 
         public override async Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
         {

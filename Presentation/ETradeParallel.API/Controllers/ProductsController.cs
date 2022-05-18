@@ -12,15 +12,27 @@ namespace ETradeParallel.API.Controllers
     [ApiController]
     public class ProductsController : ControllerBase
     {
-        private readonly IProductReadRepository _productReadRepository;
         private readonly IProductWriteRepository _productWriteRepository;
+        private readonly IProductReadRepository _productReadRepository;
         private readonly IFileService _fileService;
+        private readonly IFileWriteRepository _fileWriteRepository;
+        private readonly IFileReadRepository _fileReadRepository;
+        private readonly IInvoiceFileWriteRepository _invoiceWriteRepository;
+        private readonly IInvoiceFileReadRepository _invoiceReadRepository;
+        private readonly IProductImageFileReadRepository _productImageFileReadRepository;
+        private readonly IProductImageFileWriteRepository _productImageFileWriteRepository;
 
-        public ProductsController(IProductWriteRepository productWriteRepository, IProductReadRepository productReadRepository, IFileService fileService)
+        public ProductsController(IProductWriteRepository productWriteRepository, IProductReadRepository productReadRepository, IFileService fileService, IFileWriteRepository fileWriteRepository, IFileReadRepository fileReadRepository, IInvoiceFileWriteRepository invoiceWriteRepository, IInvoiceFileReadRepository invoiceReadRepository, IProductImageFileReadRepository productImageFileReadRepository, IProductImageFileWriteRepository productImageFileWriteRepository)
         {
-            this._productWriteRepository = productWriteRepository;
-            this._productReadRepository = productReadRepository;
-            this._fileService = fileService;
+            _productWriteRepository = productWriteRepository;
+            _productReadRepository = productReadRepository;
+            _fileService = fileService;
+            _fileWriteRepository = fileWriteRepository;
+            _fileReadRepository = fileReadRepository;
+            _invoiceWriteRepository = invoiceWriteRepository;
+            _invoiceReadRepository = invoiceReadRepository;
+            _productImageFileReadRepository = productImageFileReadRepository;
+            _productImageFileWriteRepository = productImageFileWriteRepository;
         }
 
         [HttpGet]
@@ -77,8 +89,15 @@ namespace ETradeParallel.API.Controllers
         [HttpPost("[action]")]
         public async Task<IActionResult> Upload()
         {
-            await _fileService.UploadAsync("resource/product-images", Request.Form.Files);
+            var datas = await _fileService.UploadAsync("resource/product-images", Request.Form.Files);
+            await _productImageFileWriteRepository.AddRangeAsync(datas.Select(d => new ProductImageFile()
+            {
+                FileName = d.fileName,
+                Path = d.path,
+            }).ToList());
+            await _productImageFileWriteRepository.SaveAsync();
             return Ok();
+
         }
     }
 

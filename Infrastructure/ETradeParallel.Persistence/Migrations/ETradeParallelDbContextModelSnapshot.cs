@@ -43,6 +43,34 @@ namespace ETradeParallel.Persistence.Migrations
                     b.ToTable("Customers");
                 });
 
+            modelBuilder.Entity("ETradeParallel.Domain.Entities.File", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Discriminator")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("FileName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Path")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Files");
+
+                    b.HasDiscriminator<string>("Discriminator").HasValue("File");
+                });
+
             modelBuilder.Entity("ETradeParallel.Domain.Entities.Order", b =>
                 {
                     b.Property<Guid>("Id")
@@ -113,6 +141,23 @@ namespace ETradeParallel.Persistence.Migrations
                     b.HasIndex("ProductsId");
 
                     b.ToTable("OrderProduct");
+                });
+
+            modelBuilder.Entity("ETradeParallel.Domain.Entities.InvoiceFile", b =>
+                {
+                    b.HasBaseType("ETradeParallel.Domain.Entities.File");
+
+                    b.Property<decimal>("Price")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.HasDiscriminator().HasValue("InvoiceFile");
+                });
+
+            modelBuilder.Entity("ETradeParallel.Domain.Entities.ProductImageFile", b =>
+                {
+                    b.HasBaseType("ETradeParallel.Domain.Entities.File");
+
+                    b.HasDiscriminator().HasValue("ProductImageFile");
                 });
 
             modelBuilder.Entity("ETradeParallel.Domain.Entities.Order", b =>
