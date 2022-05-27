@@ -18,4 +18,9 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.3" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Abstractions\Storage\Azure\" />
+    <Folder Include="Abstractions\Storage\AWS\" />
+  </ItemGroup>
+
 </Project>

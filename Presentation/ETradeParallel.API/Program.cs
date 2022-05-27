@@ -1,5 +1,6 @@
 using ETradeParallel.Application.Validators.Products;
 using ETradeParallel.Infrastructure;
+using ETradeParallel.Infrastructure.Enums;
 using ETradeParallel.Infrastructure.Filters;
 using ETradeParallel.Persistence;
 using FluentValidation.AspNetCore;
@@ -8,6 +9,9 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddPersistenceServices();
 builder.Services.AddInfrastructureServices();
+
+//builder.Services.AddStorage<LocalStorage>();
+builder.Services.AddStorage(StorageType.Local);
 
 builder.Services.AddCors(options =>
     options.AddDefaultPolicy(policy =>

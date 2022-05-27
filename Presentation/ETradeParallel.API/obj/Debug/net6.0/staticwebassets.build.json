@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "gmoq9ArSa6BdMXGRjhmUAthYBlt9+0oe8HjU+BSQzPk=",
+  "Hash": "EHstq96ZhqWhuTo1EtDhg3kKAZMYYngSII/XfnPWW0c=",
   "Source": "ETradeParallel.API",
   "BasePath": "_content/ETradeParallel.API",
   "Mode": "Default",
@@ -15,5 +15,74 @@
       "Pattern": "**"
     }
   ],
-  "Assets": []
+  "Assets": [
+    {
+      "Identity": "D:\\Lesson\\Tech_Projects\\Dev_Project\\CSHARP\\ETradeMiniAppParallel\\ETradeParallel\\Presentation\\ETradeParallel.API\\wwwroot\\resource\\product-images\\toArrayToListBenchmark.png",
+      "SourceId": "ETradeParallel.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Lesson\\Tech_Projects\\Dev_Project\\CSHARP\\ETradeMiniAppParallel\\ETradeParallel\\Presentation\\ETradeParallel.API\\wwwroot\\",
+      "BasePath": "_content/ETradeParallel.API",
+      "RelativePath": "resource/product-images/toArrayToListBenchmark.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\resource\\product-images\\toArrayToListBenchmark.png"
+    },
+    {
+      "Identity": "D:\\Lesson\\Tech_Projects\\Dev_Project\\CSHARP\\ETradeMiniAppParallel\\ETradeParallel\\Presentation\\ETradeParallel.API\\wwwroot\\resource\\product-images\\toArrayToListBenchmark-2.png",
+      "SourceId": "ETradeParallel.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Lesson\\Tech_Projects\\Dev_Project\\CSHARP\\ETradeMiniAppParallel\\ETradeParallel\\Presentation\\ETradeParallel.API\\wwwroot\\",
+      "BasePath": "_content/ETradeParallel.API",
+      "RelativePath": "resource/product-images/toArrayToListBenchmark-2.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\resource\\product-images\\toArrayToListBenchmark-2.png"
+    },
+    {
+      "Identity": "D:\\Lesson\\Tech_Projects\\Dev_Project\\CSHARP\\ETradeMiniAppParallel\\ETradeParallel\\Presentation\\ETradeParallel.API\\wwwroot\\resource\\product-images\\toArrayToListBenchmark-3.png",
+      "SourceId": "ETradeParallel.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Lesson\\Tech_Projects\\Dev_Project\\CSHARP\\ETradeMiniAppParallel\\ETradeParallel\\Presentation\\ETradeParallel.API\\wwwroot\\",
+      "BasePath": "_content/ETradeParallel.API",
+      "RelativePath": "resource/product-images/toArrayToListBenchmark-3.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\resource\\product-images\\toArrayToListBenchmark-3.png"
+    },
+    {
+      "Identity": "D:\\Lesson\\Tech_Projects\\Dev_Project\\CSHARP\\ETradeMiniAppParallel\\ETradeParallel\\Presentation\\ETradeParallel.API\\wwwroot\\resource\\product-images\\toArrayToListBenchmark-4.png",
+      "SourceId": "ETradeParallel.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Lesson\\Tech_Projects\\Dev_Project\\CSHARP\\ETradeMiniAppParallel\\ETradeParallel\\Presentation\\ETradeParallel.API\\wwwroot\\",
+      "BasePath": "_content/ETradeParallel.API",
+      "RelativePath": "resource/product-images/toArrayToListBenchmark-4.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\resource\\product-images\\toArrayToListBenchmark-4.png"
+    }
+  ]
 }
